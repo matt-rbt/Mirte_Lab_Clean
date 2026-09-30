@@ -2,6 +2,8 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
+https://github.com/user-attachments/assets/7df1c21a-e6db-4e92-8ad7-d7a974f5d110
+
 # Quickstart
 
 This quickstart covers installation and common launch patterns for all packages in the [`Mirte_Lab_Clean`](https://github.com/matt-rbt/Mirte_Lab_Clean) repository.
