@@ -2,11 +2,13 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
+https://github.com/user-attachments/assets/7df1c21a-e6db-4e92-8ad7-d7a974f5d110
+
 This project was part of a final project (BEP) within the bachelor programme Mechanical Engineering at TU Delft.
 Unfortunately the project came to an end before conducting any successfull runs on the real Mirte Master robot.
 
 Some issues differing in priority still persist after the project was completed, 
-and block the functionality of this project.
+and block the functionality of this project. a few can even be seen in the video above
 
 Some are listed below:
 - The Mirte sometimes still fails execute the coverage plan and skips some parts of the path.
@@ -14,7 +16,6 @@ Some are listed below:
 - The pick and place action behavior is very unreliable in actually picking up objects.
 - The behavior tree never stays in the approach state consistently when detecting an object
 
-https://github.com/user-attachments/assets/7df1c21a-e6db-4e92-8ad7-d7a974f5d110
 
 # Quickstart
 
