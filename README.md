@@ -2,6 +2,18 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
+This project was part of a final project (BEP) within the bachelor programme Mechanical Engineering at TU Delft.
+Unfortunately the project came to an end before conducting any successfull runs on the real Mirte Master robot.
+
+Some issues differing in priority still persist after the project was completed, 
+and block the functionality of this project.
+
+Some are listed below:
+- The Mirte sometimes still fails execute the coverage plan and skips some parts of the path.
+- Navigating to a target position sometimes causes permanent oscillation using the current navigation controller setup.
+- The pick and place action behavior is very unreliable in actually picking up objects.
+- The behavior tree never stays in the approach state consistently when detecting an object
+
 https://github.com/user-attachments/assets/7df1c21a-e6db-4e92-8ad7-d7a974f5d110
 
 # Quickstart
@@ -21,10 +33,10 @@ git clone https://github.com/matt-rbt/Mirte_Lab_Clean
 
 # 2. Import external dependencies
 cd ~/ros2_ws
-vcs import src/ < src/mirte_lc/sources.repos
+vcs import src/ < src/Mirte_Lab_Clean/mirte_lc/sources.repos
 
 # 3. Update nested submodules
-cd src/mirte-ros-packages && git submodule update --init --recursive && cd ../..
+cd src/Mirte_Lab_Clean/mirte-ros-packages && git submodule update --init --recursive && cd ../..
 
 # 4. Install rosdeps and build
 rosdep install -y --from-paths src/ --ignore-src --rosdistro humble
