@@ -2,16 +2,6 @@
 
 This document covers required modifications to upstream packages and initial robot setup procedures.
 
----
-
-## Dependencies
-
-```bash
-sudo apt install ros-humble-image-pipeline
-```
-
----
-
 ## Clock Synchronisation (manual fallback)
 
 If Chrony is not available, clocks can be synchronised manually:
