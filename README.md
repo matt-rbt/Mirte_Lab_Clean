@@ -49,16 +49,14 @@ colcon build --symlink-install
 The Gazebo packages are large and unnecessary on the physical robot. Use a sparse checkout to exclude them:
 
 ```bash
-cd ~/mirte_ros_ws/src && mkdir mirte_lc && cd mirte_lc
-git init
-git remote add origin https://github.com/matt-rbt/Mirte_Lab_Clean
-git sparse-checkout init --no-cone
-# Edit .git/info/sparse-checkout:
-#   /*
-#   !mirte_lc_gazebo/
-git read-tree -mu HEAD
-git pull origin main
+cd ~/<ros_ws>/src
+git clone --no-checkout https://github.com/matt-rbt/Mirte_Lab_Clean.git mirte_lc
+cd mirte_lc
+git sparse-checkout set --no-cone '/*' '!mirte_lc_gazebo/'
+git checkout main
 ```
+
+Then follow the rest of the install steps, just as above.
 
 ---
 
