@@ -4,11 +4,12 @@
 
 https://github.com/user-attachments/assets/7df1c21a-e6db-4e92-8ad7-d7a974f5d110
 
-This project was part of a final project (BEP) within the bachelor programme Mechanical Engineering at TU Delft.
-Unfortunately the project came to an end before conducting any successfull runs on the real Mirte Master robot.
+This project was developed as part of a final-year Bachelor’s project (BEP) within the Mechanical Engineering programme at TU Delft.
 
-Some issues differing in priority still persist after the project was completed, 
-and block the functionality of this project. a few can even be seen in the video above
+Unfortunately, the project concluded before successful runs could be conducted on the physical Mirte Master robot. Several issues of varying priority remain unresolved and currently prevent the system from functioning as intended. Some of these issues can also be observed in the video above.
+
+Further development and debugging would therefore be required to bring the project to a fully operational state.
+
 
 Some are listed below:
 - The Mirte sometimes still fails execute the coverage plan and skips some parts of the path.
